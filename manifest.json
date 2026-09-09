@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/Lootfullin/cowabunga-jellyfin-companion/main/assets/cowabunga-logo.jpg",
     "versions": [
       {
+        "version": "1.0.1.0",
+        "targetAbi": "12.0.0.0",
+        "timestamp": "2026-09-09T08:15:47.345390+00:00",
+        "changelog": "Fix collection poster and logo language preferences being overridden by Jellyfin metadata-language sorting. Fall back per image type only when preferred-language artwork is unavailable.",
+        "checksum": "db470eac481b9747e63f242793c085ea",
+        "sourceUrl": "https://github.com/Lootfullin/cowabunga-jellyfin-companion/releases/download/v1.0.1/Cowabunga.Jellyfin.Companion_1.0.1_jellyfin-12.0.zip"
+      },
+      {
         "version": "1.0.0.0",
         "targetAbi": "12.0.0.0",
         "timestamp": "2026-09-09T07:40:00.457613+00:00",
