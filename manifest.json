@@ -1,0 +1,77 @@
+[
+  {
+    "guid": "0a281de0-d3c8-43ef-bf2d-5fac17fbb8c6",
+    "name": "Cowabunga Jellyfin Companion",
+    "owner": "Lootfullin",
+    "description": "Media recognition, localized metadata and Cowabunga artwork with per-library controls.",
+    "overview": "Smart Resolver, Choose your Meta and Custom Artwork in one plugin.",
+    "category": "General",
+    "imageUrl": "https://raw.githubusercontent.com/Lootfullin/cowabunga-jellyfin-companion/main/assets/cowabunga-logo.jpg",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "targetAbi": "12.0.0.0",
+        "timestamp": "2026-09-09T07:40:00.457613+00:00",
+        "changelog": "Unified modules, library scopes and coordinated artwork updates for Jellyfin 12.",
+        "checksum": "608316756870f0b74cde869c0a1d5a22",
+        "sourceUrl": "https://github.com/Lootfullin/cowabunga-jellyfin-companion/releases/download/v1.0.0/Cowabunga.Jellyfin.Companion_1.0.0_jellyfin-12.0.zip"
+      }
+    ]
+  },
+  {
+    "guid": "c61d7897-a923-4a6d-9d4d-c6c911f28e73",
+    "owner": "Lootfullin",
+    "description": "Safely finds media stored in extra folders and reads movie names from video files.",
+    "imageUrl": "https://raw.githubusercontent.com/Lootfullin/jellyfin-smart-resolver/main/assets/icon.svg",
+    "overview": "Finds series stored one folder deeper and reads movie names from video files.",
+    "name": "Jellyfin Smart Resolver",
+    "category": "General",
+    "versions": [
+      {
+        "checksum": "a4eac6ee77239a6ec0b79f776f47135d",
+        "changelog": "Enable reliable automatic updates from the Jellyfin plugin repository.",
+        "timestamp": "2026-08-02T15:10:43Z",
+        "targetAbi": "10.11.11.0",
+        "version": "1.1.1.0",
+        "sourceUrl": "https://github.com/Lootfullin/jellyfin-smart-resolver/releases/download/v1.1.1/Jellyfin.SmartResolver_1.1.1_jellyfin-10.11.11.zip"
+      }
+    ]
+  },
+  {
+    "overview": "Controls RU/EN metadata and artwork without requiring a separate TMDB key.",
+    "guid": "a8f3c2e1-4b5d-6e7f-8a9b-0c1d2e3f4a5b",
+    "category": "General",
+    "owner": "Lootfullin",
+    "name": "Choose your Meta!",
+    "description": "Choose Russian or English metadata, posters, and logos for movies and collections.",
+    "versions": [
+      {
+        "version": "1.4.8.0",
+        "changelog": "Identify collections from linked movies and safely identify movies and series. Exact IMDb mappings correct stale TMDB IDs; ambiguous title/year searches are skipped instead of selecting the first result.",
+        "targetAbi": "10.11.11.0",
+        "sourceUrl": "https://github.com/Lootfullin/choose-your-meta/releases/download/v1.4.8/ChooseYourMeta_1.4.8_jellyfin-10.11.11.zip",
+        "checksum": "453fa1ba343268a259a3f8a6560ccaba",
+        "timestamp": "2026-08-03T18:05:40Z"
+      }
+    ]
+  },
+  {
+    "overview": "Custom artwork from a private Cowabunga cloud.",
+    "guid": "6f2d1a54-9c6e-4f2b-9a7d-5c1e2b8a44f1",
+    "category": "General",
+    "owner": "iMaks533",
+    "name": "Cowabunga Custom Artwork",
+    "description": "Provides custom posters and logos for movies, series, seasons and collections.",
+    "imageUrl": "https://raw.githubusercontent.com/Lootfullin/jellyfin-custom-artwork/main/packaging/logo.png",
+    "versions": [
+      {
+        "version": "2.4.3.0",
+        "changelog": "Локальные poster/folder/cover/default и clearlogo/logo корректно заменяются только по явной настройке; неприменённые изображения коллекций гарантированно ставятся на refresh; изменения индекса подтверждаются после постановки обновлений в очередь.",
+        "targetAbi": "10.11.0.0",
+        "sourceUrl": "https://github.com/Lootfullin/jellyfin-custom-artwork/releases/download/v2.4.3/Cowabunga.Custom.Artwork_2.4.3.0.zip",
+        "checksum": "cec1d835992dd9d342837f98e767e952",
+        "timestamp": "2026-08-04T16:54:37Z"
+      }
+    ]
+  }
+]
