@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/Lootfullin/cowabunga-jellyfin-companion/main/assets/cowabunga-logo.jpg",
     "versions": [
       {
+        "version": "1.0.10.0",
+        "targetAbi": "12.0.0.0",
+        "timestamp": "2026-09-11T11:21:46.114102+00:00",
+        "changelog": "Fix collection artwork reverting after metadata refresh. Save in native Jellyfin collection folders and back up obsolete alternatives. Preserve replacement permissions and external-folder protections.",
+        "checksum": "b3d37c283f9d5edb3a87e17e61c3e46e",
+        "sourceUrl": "https://github.com/Lootfullin/cowabunga-jellyfin-companion/releases/download/v1.0.10/Cowabunga.Jellyfin.Companion_1.0.10_jellyfin-12.0.zip"
+      },
+      {
         "version": "1.0.9.0",
         "targetAbi": "12.0.0.0",
         "timestamp": "2026-09-11T11:10:08.184589+00:00",
