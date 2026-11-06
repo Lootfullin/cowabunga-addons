@@ -9,6 +9,14 @@
     "imageUrl": "https://raw.githubusercontent.com/Lootfullin/cowabunga-jellyfin-companion/main/assets/cowabunga-logo.jpg",
     "versions": [
       {
+        "version": "1.0.18.0",
+        "targetAbi": "12.0.0.0",
+        "timestamp": "2026-11-06T07:19:37.953897+00:00",
+        "changelog": "Rank manual movie identification results by requested release year and add a read-only audit of movie year mismatches with TMDb suggestions.",
+        "checksum": "629266361148713361fed5b5e0c70cfd",
+        "sourceUrl": "https://github.com/Lootfullin/cowabunga-jellyfin-companion/releases/download/v1.0.18/Cowabunga.Jellyfin.Companion_1.0.18_jellyfin-12.0.zip"
+      },
+      {
         "version": "1.0.17.0",
         "targetAbi": "12.0.0.0",
         "timestamp": "2026-10-22T09:52:51.679696+00:00",
